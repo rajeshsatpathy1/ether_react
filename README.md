@@ -1,3 +1,21 @@
+# Project: Lottery React
+
+This project follows the contract from [Lottery Project](https://github.com/rajeshsatpathy1/Lottery/)
+
+## Design Architecture
+
+![image](https://github.com/rajeshsatpathy1/lottery_react/assets/21288436/d33e5668-f9d1-4347-8386-d57e2dbf040d)
+
+
+## React UI
+
+The React UI interacts with the Ethereum contract by referring the contract interface in lottery.js and making calls using the ABI created at the deployed contract's address.
+
+![react_lottery_eth_1 drawio](https://github.com/rajeshsatpathy1/lottery_react/assets/21288436/8c92b0f0-6ba1-47cd-aae5-7510dc1be88c)
+
+
+## Running the project
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 Lottery contract is interacted with through this react-app. 
